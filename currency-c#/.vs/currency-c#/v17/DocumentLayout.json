@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencymain\\currecncycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencymain\\currecncycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencyconvert\\currecncycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencyconvert\\currecncycalculator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencymain\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencymain\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencyconvert\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencyconvert\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencymain\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencymain\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|c:\\users\\micha\\onedrive\\pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\currencyconvert\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3C02BCAF-F27F-4431-B9F6-7C247D691119}|currency-c#\\currency-c#.csproj|solutionrelative:currency-c#\\currencyconvert\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,10 +32,10 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Currency.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\Currency.cs",
-              "RelativeDocumentMoniker": "currency-c#\\CurrencyMain\\Currency.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\Currency.cs",
-              "RelativeToolTip": "currency-c#\\CurrencyMain\\Currency.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\Currency.cs",
+              "RelativeDocumentMoniker": "currency-c#\\CurrencyConvert\\Currency.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\Currency.cs",
+              "RelativeToolTip": "currency-c#\\CurrencyConvert\\Currency.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T19:43:00.166Z"
@@ -44,10 +44,10 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\Response.cs",
-              "RelativeDocumentMoniker": "currency-c#\\CurrencyMain\\Response.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\Response.cs",
-              "RelativeToolTip": "currency-c#\\CurrencyMain\\Response.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\Response.cs",
+              "RelativeDocumentMoniker": "currency-c#\\CurrencyConvert\\Response.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\Response.cs",
+              "RelativeToolTip": "currency-c#\\CurrencyConvert\\Response.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-31T19:42:47.106Z"
@@ -56,10 +56,10 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "CurrecncyCalculator.cs",
-              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\CurrecncyCalculator.cs",
-              "RelativeDocumentMoniker": "currency-c#\\CurrencyMain\\CurrecncyCalculator.cs",
-              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyMain\\CurrecncyCalculator.cs",
-              "RelativeToolTip": "currency-c#\\CurrencyMain\\CurrecncyCalculator.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\CurrecncyCalculator.cs",
+              "RelativeDocumentMoniker": "currency-c#\\CurrencyConvert\\CurrecncyCalculator.cs",
+              "ToolTip": "C:\\Users\\micha\\OneDrive\\Pulpit\\apbdpjatk\\apbd3\\zadanie-rekrutacyjne\\currency-c#\\currency-c#\\CurrencyConvert\\CurrecncyCalculator.cs",
+              "RelativeToolTip": "currency-c#\\CurrencyConvert\\CurrecncyCalculator.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-30T13:10:01.586Z",
