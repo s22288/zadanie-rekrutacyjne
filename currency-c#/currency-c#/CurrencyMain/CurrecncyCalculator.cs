@@ -11,6 +11,7 @@ namespace currency_c_.CurrencyMain
         private String code;
         private List<Currency> ratesOfCurr;
         private readonly string format = "yyyy-MM-dd";
+        private static readonly HttpClient client = new HttpClient();
 
         public CurrecncyCalculator(String table, String currency)
         {
@@ -27,11 +28,17 @@ namespace currency_c_.CurrencyMain
         {
 
             String customUrl = $"{baseUrl}/{table}/{code}/{start}/{end}";
-            HttpClient client = new HttpClient();
-            HttpResponseMessage response = await client.GetAsync(customUrl);
-            response.EnsureSuccessStatusCode();
-            string responseBody = await response.Content.ReadAsStringAsync();
-            JsonToList(responseBody);
+            try
+            {
+                HttpResponseMessage response = await client.GetAsync(customUrl);
+                response.EnsureSuccessStatusCode();
+                string responseBody = await response.Content.ReadAsStringAsync();
+
+                JsonToList(responseBody);
+            }catch(HttpRequestException e)
+            {
+                throw new Exception("Http response error");
+            }
         }
         public void JsonToList(String json)
         {
@@ -40,21 +47,44 @@ namespace currency_c_.CurrencyMain
             {
                 ratesOfCurr = currencyListFromJson.rates;
             }
+            else
+            {
+                throw new Exception("no rates found");
+            }
 
 
         }
         public float? Average()
         {
-            return ratesOfCurr.Select(cur => cur.mid).Average();
-        }
+            try
+            {
+                return ratesOfCurr.Select(cur => cur.mid).Average();
+            }
+            catch (InvalidOperationException i)
+            {
+                throw new Exception(i.Message);
+            }
+            }
         public float? CountMin()
         {
-            return ratesOfCurr.Select(cur => cur.mid).Min();
+            try
+            {
+                return ratesOfCurr.Select(cur => cur.mid).Min();
 
-        }
+            }catch(InvalidOperationException i)
+            {
+                throw new Exception(i.Message);
+            }
+            }
         public float? CountMax()
         {
-            return ratesOfCurr.Select(cur => cur.mid).Max();
+            try
+            {
+                return ratesOfCurr.Select(cur => cur.mid).Max();
+            }catch(InvalidOperationException i)
+            {
+                throw new InvalidOperationException(i.Message);
+            }
 
         }
         public void PrintResults()
